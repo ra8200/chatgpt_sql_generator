@@ -46,6 +46,12 @@ const App = () => {
 
   return (
     <div className="app">
+      <h1 className="">ChatSQLGen</h1>
+      <p>
+        Example:<br/>
+        find all users who live in California and have over 1000 credits
+      </p>
+
       <MessagesDisplay userMessages={filteredUserMessages}/>
       <input value={value} onChange={e => setValue(e.target.value)}/>
       <CodeDisplay text={latestCode?.content || ""}/>
