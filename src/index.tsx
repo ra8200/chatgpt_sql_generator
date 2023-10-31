@@ -9,6 +9,11 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
+    <h1 className="">ChatSQLGen</h1>
+    <p>
+       Example:<br/>
+       find all users who live in California and have over 1000 credits
+    </p>
     <App />
   </React.StrictMode>
 );
